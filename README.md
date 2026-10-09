@@ -18,10 +18,10 @@
 ## Conventions
 
 - Each lab folder contains:
-  - `README.md` — scenario, architecture, steps, enterprise-scale reflection
-  - `diagrams/` — architecture diagram (PNG) + optional console screenshots
-  - `terraform/` — IaC (`.tf` files, `variables.tf`, `outputs.tf`)
-  - `cleanup.sh` — `terraform destroy` wrapper
+  - `README.md` : scenario, architecture, steps, enterprise-scale reflection
+  - `diagrams/` : architecture diagram (PNG) + optional console screenshots
+  - `terraform/` : IaC (`.tf` files, `variables.tf`, `outputs.tf`)
+  - `cleanup.sh` : `terraform destroy` wrapper
 - All resources tagged `Project=saa-labs` for cost tracking.
 - Commit cadence: small, dated increments per lab (scaffold → build → verify → cleanup).
 
@@ -34,5 +34,5 @@ All labs target the **AWS Free Tier** where possible. Estimated total: <$5/mo.
 ## About
 
 Previously led a cloud-native service on **OCI**. These labs translate that
-experience to AWS — each lab includes a short "enterprise-scale reflection"
+experience to AWS; each lab includes a short "enterprise-scale reflection"
 comparing AWS choices to their OCI equivalents.   
